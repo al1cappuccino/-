@@ -1,0 +1,57 @@
+body{
+	margin:0;
+	font-size:20px;
+	font-height:20px;
+	font-family: 'Oswald', sans-serif;
+	background-color:white;
+}
+*,
+*:before,
+*:after
+{
+	box-sizing:border-box;
+}
+
+
+
+.cards{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:flex;
+	justify-content: center;
+}
+.cards__item:not(:last-child){
+	margin-right:20px;
+}
+.card{
+	width:350px;
+	background-color:orange;
+	border-radius:30px;
+}
+.card__image{
+	
+height:490px;	
+}
+.card__image img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.card__content{
+	padding:20px;
+}
+.cars__descr{
+	margin:0;
+	margin-bottom:15px;
+}
+.card__btn{
+	border:none;
+	padding:10px 20px;
+	color:#fff;
+	background-color:#000;
+	
+}
+.card__btn:hover{
+	background-color:#FADE5E;
+}
